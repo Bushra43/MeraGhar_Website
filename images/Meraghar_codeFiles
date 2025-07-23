@@ -1,0 +1,302 @@
+///////////////////////// HTML ////////////////////
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mera Ghar - A safe haven and home for orphan girls in Rawalpindi.">
+  <title>Mera Ghar | NGO for Orphan Girls</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">Mera Ghar</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#impact">Success Stories</a></li>
+        <li><a href="#help">How to Help</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Home to 200 Girls and Counting</h1>
+        <p>A sanctuary for dreams, growth, and transformation.</p>
+        <a href="#help" class="btn">Sponsor a Child</a>
+      </div>
+    </section>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Our Story</h2>
+      <p>Established in 2017 in Rawalpindi, Mera Ghar is a home filled with love, laughter, and limitless potential. Dedicated to orphan girls and women, our home nurtures education, character, independence, and joy in every resident.</p>
+    </div>
+  </section>
+
+  <section id="programs" class="section alt">
+    <div class="container">
+      <h2>What We Do</h2>
+      <div class="program-grid">
+        <div class="card">
+          <h3>Education</h3>
+          <p>From tutoring to university support, we empower girls to thrive academically.</p>
+        </div>
+        <div class="card">
+          <h3>Vocational Training</h3>
+          <p>Sewing, creative arts, poetry, taekwondo—our girls explore and grow their skills.</p>
+        </div>
+        <div class="card">
+          <h3>Social Campaigns</h3>
+          <p>Tree plantations, cleanliness drives, and anti-child labor advocacy shape leaders of change.</p>
+        </div>
+        <div class="card">
+          <h3>Recreation & Sports</h3>
+          <p>Trips, hiking, hockey, book clubs—every moment at Mera Ghar is full of meaning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact" class="section">
+    <div class="container">
+      <h2>Success Stories</h2>
+      <div class="impact-grid">
+        <div class="story">
+          <h3>Sana</h3>
+          <p>A vibrant 14-year-old in Grade 7, Sana mentors juniors and helps with household chores with compassion and dedication.</p>
+        </div>
+        <div class="story">
+          <h3>Fizza</h3>
+          <p>Fizza, also in Grade 7, is a senior girl who leads by example, supporting younger ones in studies and daily routines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="help" class="section alt">
+    <div class="container">
+      <h2>How You Can Help</h2>
+      <p>Become a sponsor today and give a child a loving home, education, healthcare, and a brighter tomorrow.</p>
+      <div class="donate">
+        <p><strong>₨18,000/month</strong> transforms a child’s life.</p>
+        <a href="mailto:meraghar017@gmail.com" class="btn">Sponsor Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section">
+    <div class="container">
+      <h2>Our Team</h2>
+      <p>Profiles of Chairperson, Directors, Secretary, and Program Leads will be featured here with photos and bios.</p>
+    </div>
+  </section>
+
+  <section id="gallery" class="section alt">
+    <div class="container">
+      <h2>Gallery</h2>
+      <p>Click to view pictures and videos of events, documentaries, and daily life at Mera Ghar (linked from GitHub).</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p><strong>Address:</strong> House 249, Street 11, Race Course Road, Westridge 1, Rawalpindi</p>
+      <p><strong>Email:</strong> <a href="mailto:meraghar017@gmail.com">meraghar017@gmail.com</a></p>
+      <p><strong>Phone:</strong> +92-321-5180816, +92-332-5120272</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=House+249,+Street+11,+Westridge+1,+Rawalpindi,+Pakistan&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Mera Ghar | Sunshine Gharana Foundation</p>
+  </footer>
+</body>
+
+</html>
+
+
+
+
+
+/////////////////////////// CSS /////////////////////////////////
+/* styles.css */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header {
+  position: relative;
+  background: linear-gradient(to right, #00796b, #004d40);
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 2rem;
+  align-items: center;
+  background-color: transparent;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links li a {
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffd54f;
+}
+
+.hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: url('https://source.unsplash.com/1600x900/?children,home') center/cover no-repeat;
+  color: white;
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.btn {
+  background-color: #ff9800;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fb8c00;
+}
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.section.alt {
+  background-color: #f0f4f4;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #004d40;
+}
+
+.program-grid, .impact-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card, .story {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card:hover, .story:hover {
+  transform: translateY(-8px);
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #004d40;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #009688;
+}
+
+.map {
+  margin-top: 1rem;
+}
+
+.footer {
+  background-color: #004d40;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+
+
+
+
+
+/////////////////////////// JS /////////////////////
+// script.js
+
+// Smooth scroll for anchor links
+document.querySelectorAll('a[href^=\"#\"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    const target = document.querySelector(this.getAttribute('href'));
+    if (target) {
+      target.scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+
+
