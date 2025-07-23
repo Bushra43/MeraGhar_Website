@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mera Ghar - A safe haven and home for orphan girls in Rawalpindi.">
+  <title>Mera Ghar | NGO for Orphan Girls</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">Mera Ghar</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Our Story</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#impact">Success Stories</a></li>
+        <li><a href="#help">How to Help</a></li>
+        <li><a href="#team">Our Team</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>Home to 200 Girls and Counting</h1>
+        <p>A sanctuary for dreams, growth, and transformation.</p>
+        <a href="#help" class="btn">Sponsor a Child</a>
+      </div>
+    </section>
+  </header>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>Our Story</h2>
+      <p>Established in 2017 in Rawalpindi, Mera Ghar is a home filled with love, laughter, and limitless potential. Dedicated to orphan girls and women, our home nurtures education, character, independence, and joy in every resident.</p>
+    </div>
+  </section>
+
+  <section id="programs" class="section alt">
+    <div class="container">
+      <h2>What We Do</h2>
+      <div class="program-grid">
+        <div class="card">
+          <h3>Education</h3>
+          <p>From tutoring to university support, we empower girls to thrive academically.</p>
+        </div>
+        <div class="card">
+          <h3>Vocational Training</h3>
+          <p>Sewing, creative arts, poetry, taekwondo—our girls explore and grow their skills.</p>
+        </div>
+        <div class="card">
+          <h3>Social Campaigns</h3>
+          <p>Tree plantations, cleanliness drives, and anti-child labor advocacy shape leaders of change.</p>
+        </div>
+        <div class="card">
+          <h3>Recreation & Sports</h3>
+          <p>Trips, hiking, hockey, book clubs—every moment at Mera Ghar is full of meaning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact" class="section">
+    <div class="container">
+      <h2>Success Stories</h2>
+      <div class="impact-grid">
+        <div class="story">
+          <h3>Sana</h3>
+          <p>A vibrant 14-year-old in Grade 7, Sana mentors juniors and helps with household chores with compassion and dedication.</p>
+        </div>
+        <div class="story">
+          <h3>Fizza</h3>
+          <p>Fizza, also in Grade 7, is a senior girl who leads by example, supporting younger ones in studies and daily routines.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="help" class="section alt">
+    <div class="container">
+      <h2>How You Can Help</h2>
+      <p>Become a sponsor today and give a child a loving home, education, healthcare, and a brighter tomorrow.</p>
+      <div class="donate">
+        <p><strong>₨18,000/month</strong> transforms a child’s life.</p>
+        <a href="mailto:meraghar017@gmail.com" class="btn">Sponsor Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="team" class="section">
+    <div class="container">
+      <h2>Our Team</h2>
+      <p>Profiles of Chairperson, Directors, Secretary, and Program Leads will be featured here with photos and bios.</p>
+    </div>
+  </section>
+
+  <section id="gallery" class="section alt">
+    <div class="container">
+      <h2>Gallery</h2>
+      <p>Click to view pictures and videos of events, documentaries, and daily life at Mera Ghar (linked from GitHub).</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p><strong>Address:</strong> House 249, Street 11, Race Course Road, Westridge 1, Rawalpindi</p>
+      <p><strong>Email:</strong> <a href="mailto:meraghar017@gmail.com">meraghar017@gmail.com</a></p>
+      <p><strong>Phone:</strong> +92-321-5180816, +92-332-5120272</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=House+249,+Street+11,+Westridge+1,+Rawalpindi,+Pakistan&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Mera Ghar | Sunshine Gharana Foundation</p>
+  </footer>
+  <!-- Back to Top Button -->
+<button id="backToTop" title="Go to top">↑</button>
+
+</body>
+
+</html>
